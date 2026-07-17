@@ -1,6 +1,15 @@
 # Text Classification Streamlit App
 
-This repository contains a Streamlit web application that uses a fine-tuned DistillBert model from hugging face to classify text.
+This repository contains a Streamlit web application that uses a fine-tuned DistillBert model from hugging face to classify text into one of 9 categories:
+ *'Safe'
+ *'Violent Crimes' 
+ *'Elections' 
+ *'Sex-Related Crimes' 
+ *'unsafe' 
+ *'Non-Violent Crimes' 
+ *'Child Sexual Exploitation' 
+ *'Unknown S-Type' 
+ *'Suicide & Self-Harm'
 
 ## Prerequisites
 
