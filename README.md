@@ -1,0 +1,51 @@
+# Text Classification Streamlit App
+
+This repository contains a Streamlit web application that uses a fine-tuned DistillBert model from hugging face to classify text.
+
+## Prerequisites
+
+Before running the application, make sure you have **Python 3.8 or higher** installed.
+
+## Installation
+
+1. **Clone this repository** (or navigate to your project folder):
+   ```bash
+   cd path/to/your/project
+   ```
+
+2. **Create a virtual environment** (recommended to avoid dependency conflicts):
+   ```bash
+   # On macOS/Linux
+   python3 -m venv venv
+   source venv/bin/activate
+
+   # On Windows
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+
+3. **Install the required packages**:
+   ```bash
+   pip install streamlit torch transformers scikit-learn joblib
+   ```
+   *(Note: If you are using CUDA/GPU on Windows/Linux, ensure you install the correct PyTorch version from the official [PyTorch website](https://pytorch.org)).*
+
+## Project Structure
+
+Ensure your folder looks similar to this:
+```text
+├── app.py                 # Main Streamlit web application
+├── textmodel.py        # Python script handling the text classification model's logic and predictions
+├── label_encoder.pkl      # Saved label encoder file
+└── imagecaption.py     # Python script handling the image captioning model's logic and predictions
+```
+
+## Running the App
+
+To launch the web interface, run the following command in your terminal:
+
+```bash
+streamlit run app.py
+```
+
+Once the command runs, Streamlit will automatically open the application in your default web browser. If it doesn't open automatically, look at your terminal output and copy the local URL (usually `http://localhost:8501`).
