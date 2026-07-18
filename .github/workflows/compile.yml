@@ -17,4 +17,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: compiled-pdf
-          path: documents/main.pdf # Added the folder path here too
+          path: Task_2/research_part/main.pdf # Added the folder path here too
