@@ -13,7 +13,7 @@ This repository contains a Streamlit web application that uses a fine-tuned Dist
 
 ## Prerequisites
 
-Before running the application, make sure you have **Python 3.8 or higher** installed.
+Before running the application, make sure you have **Python 3.8 or higher** installed. Also, you need to download the weigts for the image captioning model from *link*
 
 ## Installation
 
@@ -46,7 +46,11 @@ Ensure your folder looks similar to this:
 ├── app.py                 # Main Streamlit web application
 ├── textmodel.py        # Python script handling the text classification model's logic and predictions
 ├── label_encoder.pkl      # Saved label encoder file
-└── imagecaption.py     # Python script handling the image captioning model's logic and predictions
+├── imagecaption.py     # Python script handling the image captioning model's logic and predictions
+├── database.py         # Python script handling the database logic
+├── blip2_4bit        # You should put the blip2 model weigts downloaded from google drive in this folder
+├── final_model       # This folder conatins the finetund model weigts for DitilBert
+└──
 ```
 
 ## Running the App
