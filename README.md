@@ -13,7 +13,7 @@ This repository contains a Streamlit web application that uses a fine-tuned Dist
 
 ## Prerequisites
 
-Before running the application, make sure you have **Python 3.8 or higher** installed. Also, you need to download the weigts for the image captioning model from *link*
+Before running the application, make sure you have **Python 3.8 or higher** installed. Also, you need to download the weights for the image captioning model from *[link](https://drive.google.com/drive/folders/1_isbZ76Xy6uc08WzAlXH6oENcikKNj4b?usp=sharing)*
 
 ## Installation
 
